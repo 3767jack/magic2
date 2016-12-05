@@ -1,0 +1,78 @@
+html {
+	height: 100%;
+	background: url(../images/background.jpeg);
+	background-size: cover;
+}
+
+@font-face{
+	font-family: "bebas";
+	src: url('../fonts/Bebas.TTF');
+}
+
+@font-face{
+	font-family: "SFUL";
+	src: url('../fonts/SFUL.OTF');
+}
+
+@font-face{
+	font-family: "Dreams";
+	src: url('../fonts/CaviarDreams.TTF');
+}
+@font-face{
+	font-family: "SF";
+	src: url('../fonts/SF.OTF');
+}
+@font-face{
+	font-family: "SF2";
+	src: url('../fonts/SF2.otf');
+}
+@font-face{
+	font-family: "SFBold";
+	src: url('../fonts/SF2.otf');
+}
+@font-face{
+  font-family: "SFR";
+  src: url('../fonts/SFR.otf');
+}
+
+
+
+	div {
+    font-family: bebas;
+	}
+		A{text-decoration:none}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111;
+		}
+	.button2 {
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    background-color: #189bf2;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    font: SF2;
+}
